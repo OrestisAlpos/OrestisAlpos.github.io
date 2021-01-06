@@ -34,7 +34,7 @@ scholar:
     - latex
     - smallcaps
     - superscript
-    - markdownurl
+    #- markdownurl
 
 
 # Exclude from processing.
