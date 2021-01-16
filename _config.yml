@@ -30,12 +30,12 @@ plugins:
 plugins: ['jekyll/scholar'] # Customize jekyll-scholar, see https://github.com/inukshuk/jekyll-scholar/
 scholar:
   style: chicago-author-date
+  sort_by: year
+  order: descending
   bibtex_filters:
     - latex
     - smallcaps
     - superscript
-    #- markdownurl
-
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
