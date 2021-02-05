@@ -16,15 +16,27 @@
 title: Orestis Alpos
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-  PhD Candidate, University of Bern
+  Applied crypto + systems<br/>
+  PhD Candidate @ University of Bern
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: alpenliebious
 github_username:  OrestisAlpos
+author:
+  name: Orestis Alpos
+  picture: /assets/img/oa-square-bw.jpg
+  social:
+    twitter: alpenliebious
+    github:  OrestisAlpos
+    linkedin: orestisalpos
+
+logo: /assets/img/oa-square-bw.jpg
+#accent_image: /assets/img/crypto.jpg
+# invert_sidebar: true
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-hydejack
 plugins:
   - jekyll-feed
 plugins: ['jekyll/scholar'] # Customize jekyll-scholar, see https://github.com/inukshuk/jekyll-scholar/
@@ -37,6 +49,11 @@ scholar:
     - smallcaps
     - superscript
 
+menu:
+  - title: About
+    url:   "#about"
+  - title: Publications
+    url: "#pub"
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
